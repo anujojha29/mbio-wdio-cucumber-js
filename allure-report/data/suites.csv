@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","1436","Validate invalid route handling","Negative and edge cases","2026-06-20","passed","2026-06-20","","","",""
+"","295","Validate Why MultiBank content page","Banner, links and Aboout page","2026-06-20","passed","2026-06-20","","","",""
+"","4613","Validate watchlist area","Generic watchlist","2026-06-20","passed","2026-06-20","","","",""
+"","2664","Validate mobile viewport behavior","Negative and edge cases","2026-06-20","passed","2026-06-20","","","",""
+"","5184","Validate banners and store links","Banner, links and Aboout page","2026-06-20","passed","2026-06-20","","","",""
+"","2086","Validate visible navigation links are not empty","Negative and edge cases","2026-06-20","passed","2026-06-20","","","",""
+"","4567","Validate top navigation items on desktop","Navigation and layout","2026-06-20","passed","2026-06-20","","","",""
