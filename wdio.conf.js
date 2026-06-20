@@ -2,13 +2,21 @@ exports.config = {
   runner: 'local',
   specs: ['./features/**/*.feature'],
   exclude: [],
-  maxInstances: 1,
-  capabilities: [{
-    browserName: 'chrome',
-    'goog:chromeOptions': {
-      args: ['--window-size=1440,1000']
+  maxInstances: 2,
+  capabilities: [
+    {
+      browserName: 'chrome',
+      'goog:chromeOptions': {
+        args: ['--window-size=1440,1000']
+      }
+    },
+    {
+      browserName: 'MicrosoftEdge',
+      'ms:edgeOptions': {
+        args: ['--window-size=1440,1000']
+      }
     }
-  }],
+  ],
   logLevel: 'info',
   bail: 0,
   baseUrl: 'https://mb.io/en-AE',
