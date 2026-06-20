@@ -41,8 +41,6 @@ npm test
 ```bash
 npx allure generate allure-results --clean -o allure-report
 npx allure open allure-report
-To view results in the browser as UI:
- npx allure serve allure-results
 ```
 
 ## Cucumber design
